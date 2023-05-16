@@ -192,12 +192,52 @@ ul {
     margin: auto;
     height: 250px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-.block-gridbox5 {
+.block-gridbox4-child {
     display: flex;
-    width: 500px;
+    width: 800px;
     background-color: rgb(12, 61, 221) ;
-    height: 50px;
+    height: 150px; 
+    flex-direction: row;
+    
+}
+.block-gridbox4-gchild {
+    width: 800px;
+    margin: auto;
+    height: 125px;
+    display: flex;
     color: white;
+    padding-left: 75px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+.block-gridbox4-gchild1 {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+.block-gridbox4-gchild2 {
+    display: flex;
+    width: 30%;
+}
+.button2 {
+    background-color: rgb(12, 61, 221);
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    text-decoration: none;
+    color: #f9faf8;
+    width: 120px;
+    height: 50px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    
 }

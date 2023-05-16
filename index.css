@@ -13,6 +13,7 @@ body {
     font-size: 18px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+/* the main container width based on project design sample */
 .maincontainer {
     max-width: 1200px;
     margin: auto;
@@ -71,6 +72,8 @@ ul {
 .hero-nav {
     width: 50%;
 }
+
+/* First block of the page */
 .block-grid-content1 {
     display: flex;
     flex-direction: row;
@@ -116,6 +119,8 @@ ul {
     border-radius: 8px;
     width: 125px;
 }
+
+/* Second block of the page from the top */
 .block-grid-content2 {
     width: 1200px;
     margin: auto;
@@ -178,6 +183,7 @@ ul {
     word-wrap: normal;
     
 }
+/* The tihrid block of the page */
 .block-gridbox3 {
     background-color: #e5e7eb;
     width: 1200px;
@@ -186,6 +192,7 @@ ul {
     padding-right: 230px;
     
 }
+/* The fourth block of the page */
 .block-gridbox4 {
     background-color: white;
     width: 1200px;

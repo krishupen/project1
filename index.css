@@ -1,0 +1,203 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+}
+
+body {
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.maincontainer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero {
+    background: #1f2937;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+.hero-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    width: 50%;
+    margin-left: 150px;
+    padding: 14px 16px;
+}
+.hero-nav {
+    width: 50%;
+}
+.active {
+    background-color: #04AA6D;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1f2937;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+.hero-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    width: 50%;
+    margin-left: 150px;
+    padding: 14px 16px;
+}
+.hero-nav {
+    width: 50%;
+}
+.block-grid-content1 {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    background-color: #1f2937;
+    margin: auto;
+    height: 300px;
+    
+}
+.block-grid-content1.leftbox {
+    width: 50%;
+    flex-direction: column;
+    margin-left: 150px;
+    padding: 14px 16px;
+
+}
+.block-grid-content1.rightbox {
+    width: 50%;
+    padding: 14px 16px;
+}
+.image-placeholder {
+    background-color: grey;
+    display: flex;
+    height: 180px;
+    margin: 5px;
+    width: 400px;
+}
+.image-placeholder h4 {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+    color: #f9faf8;
+}
+.button1 {
+    background-color: rgb(12, 61, 221);
+    text-align: center;
+    text-decoration: none;
+    color: #f9faf8;
+    padding: 15px  32px;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    width: 125px;
+}
+.block-grid-content2 {
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+    padding-top: 18px;
+}
+.block-grid-content2 h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: center;
+}
+.block-gridbox1 {
+    display: flex;
+    width: 1200px;
+    background-color: white;
+    margin-right: auto;
+    justify-content: center;
+    padding: 18px 20px;
+    height: 250px;
+}
+.block-gridbox1-child {
+    width: 15%;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.block-gridbox1-child p {
+    font-size: 12px;
+    text-align: center;
+    width: 62%;
+    padding-top: 5px;
+}
+    
+.rectangle {
+    width: 100px;
+    height: 100px;
+    border-color: rgb(34, 100, 245);
+    border-width: 2px;
+    border-radius: 8%;
+    border-style: solid;  
+}
+
+.block-gridbox2 {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    background-color: #e5e7eb;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-top: 150px;
+}
+.block-gridbox2 p {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    word-wrap: normal;
+    
+}
+.block-gridbox3 {
+    background-color: #e5e7eb;
+    width: 1200px;
+    margin: auto;
+    height: 150px;
+    padding-right: 230px;
+    
+}
+.block-gridbox4 {
+    background-color: white;
+    width: 1200px;
+    margin: auto;
+    height: 250px;
+    display: flex;
+}
+
+.block-gridbox5 {
+    display: flex;
+    width: 500px;
+    background-color: rgb(12, 61, 221) ;
+    height: 50px;
+    color: white;
+}

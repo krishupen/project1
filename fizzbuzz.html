@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>FizzBuzz Program</title>
+    </head>
+    <body>
+        <script>            
+    // finding numbers between 1 and user entered number
+
+    function sumAllBetween([number]){
+        var numbers = [];
+
+        for(let i = 1; i<number; i++){
+         numbers.push(i);
+        }
+        return numbers;
+    
+        }
+        console.log(sumAllBetween ([prompt("Enter Number:")]));
+    
+ 
+     // replacing multiple 3 and 5 with as fizz and Buzz
+     let x = prompt("Enter a Number:");
+     for (i=1; i<x; i++) {
+        if (i % 3 ===0 && i % 5 ===0) {(console.log("Fizz"));
+         }
+        else if (i % 3 ===0) {(console.log("Buzz"));
+         }
+        else if (i % 5 ===0) {(console.log("FizzBuzz"));
+         }
+        else {(console.log(i));
+         }
+     }   
+
+        </script>
+    </body>
+</html>
